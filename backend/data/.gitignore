@@ -1,0 +1,3 @@
+# Keep this directory in Git, but never commit local database contents.
+*
+!.gitignore

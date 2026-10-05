@@ -1,0 +1,38 @@
+# Local Python environment
+.venv/
+
+# Python caches
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and builds
+**/node_modules/
+**/dist/
+
+# Local configuration and secrets
+.local-https/
+.env*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local SQLite databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Generated checks and runtime logs
+*.tsbuildinfo
+.coverage
+coverage/
+htmlcov/
+*.log
+
+# macOS metadata
+.DS_Store
